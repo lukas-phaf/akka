@@ -13,7 +13,7 @@ might be easy to make with a custom `GraphStage`
 
 @@@
 
-<a id="graphstage-scala"></a>
+<a id="graphstage"></a>
 ## Custom processing with GraphStage
 
 The `GraphStage` abstraction can be used to create arbitrary graph processing stages with any number of input
@@ -286,7 +286,7 @@ In that sense, it serves a very similar purpose as `ActorLogging` does for Actor
 
 Please note that you can always simply use a logging library directly inside a Stage.
 Make sure to use an asynchronous appender however, to not accidentally block the stage when writing to files etc.
-See @ref:[Using the SLF4J API directly](../logging.md#slf4j-directly-scala) for more details on setting up async appenders in SLF4J.
+See @ref:[Using the SLF4J API directly](../logging.md#slf4j-directly) for more details on setting up async appenders in SLF4J.
 
 @@@
 

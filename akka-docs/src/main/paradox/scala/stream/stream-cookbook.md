@@ -77,7 +77,7 @@ demand comes in and then reset the stage state. It will then complete the stage.
 
 @@snip [RecipeDigest.scala]($code$/scala/docs/stream/cookbook/RecipeDigest.scala) { #calculating-digest }
 
-<a id="cookbook-parse-lines-scala"></a>
+<a id="cookbook-parse-lines"></a>
 ### Parsing lines from a stream of ByteStrings
 
 **Situation:** A stream of bytes is given as a stream of `ByteString` s containing lines terminated by line ending
@@ -181,7 +181,7 @@ element. If this function would return a pair of the two argument it would be ex
 
 @@snip [RecipeManualTrigger.scala]($code$/scala/docs/stream/cookbook/RecipeManualTrigger.scala) { #manually-triggered-stream-zipwith }
 
-<a id="cookbook-balance-scala"></a>
+<a id="cookbook-balance"></a>
 ### Balancing jobs to a fixed pool of workers
 
 **Situation:** Given a stream of jobs and a worker process expressed as a `Flow` create a pool of workers

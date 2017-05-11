@@ -79,7 +79,7 @@ demand comes in and then reset the stage state. It will then complete the stage.
 
 @@snip [RecipeDigest.java]($code$/java/jdocs/stream/javadsl/cookbook/RecipeDigest.java) { #calculating-digest2 }
 
-<a id="cookbook-parse-lines-java"></a>
+<a id="cookbook-parse-lines"></a>
 ### Parsing lines from a stream of ByteStrings
 
 **Situation:** A stream of bytes is given as a stream of `ByteString` s containing lines terminated by line ending
